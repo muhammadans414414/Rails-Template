@@ -1,0 +1,21 @@
+<% flash.each do |type, msg| %>
+  <% if type=="notice"%>
+    <script type="module">
+      toastr.success("<%= msg %>",'', {
+      closeButton: true,
+      showDuration: "300",
+      hideDuration: "10",
+      timeOut: "5000",
+    });
+    </script>
+    <%else%>
+    <script type="module">
+      toastr.error("<%= msg%>",'', {
+      closeButton: true,
+      showDuration: "300",
+      hideDuration: "10",
+      timeOut: "5000",
+    });
+    </script>
+    <%end %>
+<% end %>
