@@ -8,8 +8,6 @@ pin_all_from "app/javascript/controllers", under: "controllers"
 
 
 # Jquery related pins
-# pin "jquery", to: "https://code.jquery.com/jquery-3.6.0.min.js"
-# pin "jquery-easing", to: "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
 pin "jquery", to: "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.js"
 pin "jquery-easing", to: "https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"
 pin "toastr", to: "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"
