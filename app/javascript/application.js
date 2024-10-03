@@ -7,7 +7,6 @@ import "jquery"
 import "jquery-easing"
 import "toastr"; 
 // import jquery and jquery-easing
-console.log($)
 
 // import app/javascript 
 import "sb-admin-2.min"
